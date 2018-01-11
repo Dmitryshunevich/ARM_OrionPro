@@ -30,6 +30,7 @@
 					<v8:content>Сформировать</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Сформировать</Action>
 		</Command>
 	</Commands>
 </Form>
