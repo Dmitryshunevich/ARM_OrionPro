@@ -17,6 +17,12 @@
 			<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="7"/>
 			<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="8"/>
 		</InputField>
+		<HTMLDocumentField name="HTMLПоле" id="9">
+			<DataPath>HTMLПоле</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="HTMLПолеКонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="HTMLПолеРасширеннаяПодсказка" id="11"/>
+		</HTMLDocumentField>
 		<Button name="Сформировать" id="1">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.Сформировать</CommandName>
@@ -56,6 +62,21 @@
 				<v8:DateQualifiers>
 					<v8:DateFractions>Date</v8:DateFractions>
 				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="HTMLПоле" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>HTMLПоле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
